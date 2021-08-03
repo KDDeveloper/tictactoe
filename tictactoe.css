@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;  
+  }
+
+  body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+  }
+
+  .whole-box{
+    height:600px;
+    width: 600px;
+    background-color: rgb(70, 111, 247);
+    margin-top: 100px;
+  }
+
+  .row{
+      height:200px;
+      width: 600px;
+      display: flex;
+    }
+
+    .small-box{
+        height: 200px;
+        width: 200px;
+        /* background-color: indigo; */
+        border: 1.5px solid rgb(58, 57, 57);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+    }
+
+    .small-box:hover {
+      background-color: rgb(87, 125, 250);
+    }
